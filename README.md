@@ -27,8 +27,8 @@ there is a boot menu too with :
   * Pyside6
   * psutil
  
-    ``` pip3 install Pyside6
-    pip3 install psutil```
+    ``` pip3 install Pyside6 ```
+    ``` pip3 install psutil ```
  
   ## You may want to compile yourself the Programme Sentinelle
   ```pip3 install pyinstaller```
