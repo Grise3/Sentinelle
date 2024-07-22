@@ -3,6 +3,12 @@
 ## Here is the Programme Sentinelle
 It monitors your computer's statistics and alerts you in case of high usage.  Also monitors the temperature, and warns you in the event of a high temperature.
 
+*****Download the Programme Sentinelle*****
+Linux :
+http://51.178.51.166/grise/other/sentinelle
+Windows : 
+hmm. There is not the file for Windows. Please wait some time.
+
 Here is what it do :
 
 * CPU monitoring
