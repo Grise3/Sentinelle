@@ -1,5 +1,5 @@
-# Sentinelle
-
+# Programme Sentinelle
+## V2
 ## Here is the Programme Sentinelle
 It monitors your computer's statistics and alerts you in case of high usage.  Also monitors the temperature, and warns you in the event of a high temperature.
 
@@ -27,8 +27,13 @@ there is a boot menu too with :
   * Pyside6
   * psutil
  
-  ## You may want to compile yourself the Programme Sentnelle
+    ``` pip3 install Pyside6
+    pip3 install psutil```
+ 
+  ## You may want to compile yourself the Programme Sentinelle
+  ```pip3 install pyinstaller```
 
-  pip3 install pyinstaller
+  ```pyinstaller --onefile --noconsole --icon=sentinelle.ico sentinelle.py```
 
-  pyinstaller --onefile --windowed --icon=sentinelle.ico --add-data "sentinelle.ico;sentinelle.ico" sentinelle.py
+the binarie **will** need the sentinelle.png picture.
+# /!\ Please note that the touchscreen option will probably don't work for your computer, and, even if you don't have one, the option will be displayed. For fix that, please wait the next relase.
