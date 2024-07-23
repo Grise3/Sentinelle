@@ -12,7 +12,7 @@ STATS_FILE = 'sentinel_stats.json'
 class CurrentInfoWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Statistiques en Temps Réel")
+        self.setWindowTitle("Real time statistics")
         self.setWindowIcon(QIcon("sentinelle.png"))
         self.setGeometry(100, 100, 600, 400)
 
